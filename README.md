@@ -1,1 +1,1 @@
-# -one-year-cooking-with-ai
+# one-year-cooking-with-ai
