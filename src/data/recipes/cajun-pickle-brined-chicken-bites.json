@@ -3,7 +3,8 @@
   "title": "Cajun Pickle-Brined Chicken Bites",
   "summary": "Thick-cut chicken breast brined in pickle juice, seared with a smoky Cajun crust, and finished with a light hot-honey Dijon pan glaze.",
   "publishedDate": "2026-08-22",
-  "status": "awaiting-verdict",
+  "cookedDate": "2026-08-22",
+  "status": "hit",
   "draft": false,
   "servings": 3,
   "prepMinutes": 45,
@@ -41,5 +42,18 @@
     { "text": "Reduce the skillet to low. Add the butter, then stir in the honey, Dijon, hot sauce, 1 tablespoon water, Cajun seasoning, and, if desired, 1 teaspoon pickle juice. Scrape up the browned bits and cook for 30 to 60 seconds, adding a little more water if the glaze is too thick." },
     { "text": "Taste the glaze before returning the chicken. Add a touch more Dijon or pickle juice if it is too sweet, a little more honey if it is too sharp, or more hot sauce if it needs heat." },
     { "text": "Return the chicken and any accumulated juices to the skillet. Toss for 30 to 60 seconds, just until each piece has a thin glossy coating. Serve immediately so the Cajun crust stays intact." }
-  ]
+  ],
+  "actualChanges": [
+    "Skipped the red bell pepper from the planned accompaniment."
+  ],
+  "verdict": {
+    "status": "hit",
+    "rating": 4,
+    "loggedDate": "2026-08-22",
+    "familyReaction": "Everyone loved the glaze.",
+    "whatWorked": [
+      "The hot-honey Dijon glaze was the standout and was loved by everyone."
+    ],
+    "nextTime": "Try cooking the chicken on the Blackstone to speed up the process."
+  }
 }
