@@ -51,10 +51,13 @@
     "status": "hit",
     "rating": 4,
     "loggedDate": "2026-08-22",
-    "familyReaction": "Everyone loved the glaze.",
+    "familyReaction": "Everyone loved the glaze. Judy and Ella found the overall heat level a bit too spicy.",
     "whatWorked": [
       "The hot-honey Dijon glaze was the standout and was loved by everyone."
     ],
-    "nextTime": "Try cooking the chicken on the Blackstone to speed up the process."
+    "whatDidnt": [
+      "The heat level was a bit too high for Judy and Ella."
+    ],
+    "nextTime": "Cut the heat by about half, and try cooking the chicken on the Blackstone to speed up the process."
   }
 }
