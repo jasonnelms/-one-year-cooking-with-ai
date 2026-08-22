@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
+import VerdictSignup from '../../components/VerdictSignup.astro';
 import { formatMinutes, recipes, statusLabels } from '../../lib/recipes';
 import type { Recipe } from '../../types';
 
@@ -157,6 +158,8 @@ const structuredData = {
         </>
       )}
     </section>
+
+    <VerdictSignup compact />
   </article>
 
   <section class="cook-mode" data-cook-mode hidden aria-label={`Cook mode for ${recipe.title}`}>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import RecipeGrid from '../components/RecipeGrid.astro';
+import VerdictSignup from '../components/VerdictSignup.astro';
 import { recipes } from '../lib/recipes';
 
 const judged = recipes.filter((recipe) => recipe.status !== 'awaiting-verdict');
@@ -50,6 +51,8 @@ const averageRating = judged.filter((recipe) => recipe.verdict?.rating).length
     </div>
     <RecipeGrid recipes={recipes.slice(0, 6)} showFilters={false} />
   </section>
+
+  <VerdictSignup />
 
   <section class="project-promise">
     <p class="eyebrow">What gets documented</p>

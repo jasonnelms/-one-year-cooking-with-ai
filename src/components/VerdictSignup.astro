@@ -1,0 +1,40 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+const formAction =
+  'https://api.follow.it/subscription-form/NXdEQVByQ2lpVTVEdVlydkN2OVBFcWpISm84bGZnYmp6RXBpMUx1bGoxYzAydGlHVVZVWVNCL05LSEdrRHF2b1kyUmU0cWhGTHNDRlUwTkd4OFAza244N3llOTdqUnl6a3BzclBoejlXRHVSaUh4ZDRTc1BheWJ4ZHk4cTBtRXF8cEVialdqL0FQbExzU0dOWVl5OHkrQ1ZZQ1pxY3NBcVM5N2tKdzVYMkU4MD0=/8';
+---
+
+<aside class:list={['verdict-signup', compact && 'verdict-signup-compact']} aria-labelledby="verdict-signup-title">
+  <div>
+    <p class="eyebrow">Kitchen dispatch</p>
+    <h2 id="verdict-signup-title">Find out how it actually went.</h2>
+    <p>
+      Get one email when a recipe earns its verdict—hit, miss, needs work, or magnificent disaster.
+      No filler between meals.
+    </p>
+  </div>
+
+  <form action={formAction} method="post" accept-charset="UTF-8" class="verdict-signup-form">
+    <label for="verdict-alert-email">Email address</label>
+    <div>
+      <input
+        id="verdict-alert-email"
+        name="email"
+        type="email"
+        inputmode="email"
+        autocomplete="email"
+        placeholder="you@example.com"
+        aria-describedby="verdict-signup-note"
+        required
+      />
+      <button type="submit">Get verdict alerts</button>
+    </div>
+    <small id="verdict-signup-note">
+      Follow.it handles confirmation and unsubscribing. You can leave whenever dinner gets too dramatic.
+    </small>
+  </form>
+</aside>
