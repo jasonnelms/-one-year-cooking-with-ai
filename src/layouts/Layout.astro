@@ -1,0 +1,70 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title = '1 Year Cooking with AI',
+  description = 'A candid year of cooking with an AI sous-chef—the hits, misses, saves, and magnificent disasters.',
+  image,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const pageTitle = title === '1 Year Cooking with AI' ? title : `${title} · 1 Year Cooking with AI`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#9f3f2f" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title="1 Year Cooking with AI" href="/rss.xml" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="1 Year Cooking with AI home">
+        <span class="brand-mark" aria-hidden="true">365</span>
+        <span>
+          <strong>1 Year Cooking</strong>
+          <small>with AI</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="/recipes/">Recipes</a>
+        <a href="/about/">About</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p><strong>1 Year Cooking with AI</strong></p>
+      <p>The whole experiment: triumphs, near-misses, and dinners that owed everyone an apology.</p>
+      <p><a href="/rss.xml">RSS feed</a></p>
+    </footer>
+
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,391 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { formatMinutes, recipes, statusLabels } from '../../lib/recipes';
+import type { Recipe } from '../../types';
+
+export function getStaticPaths() {
+  return recipes.map((recipe) => ({ params: { slug: recipe.slug }, props: { recipe } }));
+}
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+const published = new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${recipe.publishedDate}T12:00:00Z`));
+
+const ingredientText = (ingredient: Recipe['ingredients'][number]) =>
+  [ingredient.quantity, ingredient.unit, ingredient.item, ingredient.note && `(${ingredient.note})`]
+    .filter((part) => part !== undefined && part !== null && part !== '')
+    .join(' ');
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Recipe',
+  name: recipe.title,
+  description: recipe.summary,
+  datePublished: recipe.publishedDate,
+  recipeYield: `${recipe.servings} servings`,
+  prepTime: `PT${recipe.prepMinutes}M`,
+  cookTime: `PT${recipe.cookMinutes}M`,
+  totalTime: `PT${recipe.prepMinutes + recipe.cookMinutes}M`,
+  recipeIngredient: recipe.ingredients.map(ingredientText),
+  recipeInstructions: recipe.steps.map((step) => ({ '@type': 'HowToStep', text: step.text })),
+  keywords: recipe.tags.join(', '),
+  ...(recipe.image && { image: new URL(recipe.image, Astro.site).href }),
+};
+---
+
+<Layout title={recipe.title} description={recipe.summary} image={recipe.image}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <article class="recipe-page" data-recipe-slug={recipe.slug} data-base-servings={recipe.servings}>
+    <header class="recipe-hero">
+      <div>
+        <a class="back-link" href="/recipes/">← All recipes</a>
+        <div class="recipe-kicker">
+          <StatusBadge status={recipe.status} />
+          <time datetime={recipe.publishedDate}>Published {published}</time>
+        </div>
+        <h1>{recipe.title}</h1>
+        <p>{recipe.summary}</p>
+        <ul class="tag-list" aria-label="Recipe tags">
+          {recipe.tags.map((tag) => <li>{tag}</li>)}
+        </ul>
+      </div>
+      <div class="recipe-action-card">
+        <div class="recipe-time-grid">
+          <span><small>Prep</small><strong>{formatMinutes(recipe.prepMinutes)}</strong></span>
+          <span><small>Cook</small><strong>{formatMinutes(recipe.cookMinutes)}</strong></span>
+          <span><small>Serves</small><strong>{recipe.servings}</strong></span>
+        </div>
+        <button class="button button-primary button-wide" type="button" data-open-cook-mode>
+          Start Cook Mode
+        </button>
+        <small>Keeps your place and tries to keep the screen awake.</small>
+      </div>
+    </header>
+
+    {recipe.sourceNote && <p class="source-note"><strong>From the chat:</strong> {recipe.sourceNote}</p>}
+
+    <div class="recipe-columns">
+      <section class="ingredients-panel">
+        <div class="panel-heading">
+          <h2>Ingredients</h2>
+          <label>
+            Servings
+            <input type="number" min="1" max="24" value={recipe.servings} data-serving-input />
+          </label>
+        </div>
+        <ul class="ingredient-list" data-ingredient-list>
+          {recipe.ingredients.map((ingredient, index) => (
+            <li>
+              <label>
+                <input type="checkbox" data-ingredient-check={index} />
+                <span>
+                  <strong
+                    data-scaled-amount
+                    data-quantity={ingredient.quantity ?? ''}
+                    data-unit={ingredient.unit || ''}
+                  >
+                    {ingredient.quantity} {ingredient.unit}
+                  </strong>{' '}
+                  {ingredient.item}
+                  {ingredient.note && <small>{ingredient.note}</small>}
+                </span>
+              </label>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="method-panel">
+        <h2>Method</h2>
+        <ol class="step-list">
+          {recipe.steps.map((step, index) => (
+            <li>
+              <span class="step-number">{index + 1}</span>
+              <div>
+                <p>{step.text}</p>
+                {step.timerMinutes && (
+                  <span class="timer-hint">Timer: {formatMinutes(step.timerMinutes)}</span>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </div>
+
+    {recipe.actualChanges && recipe.actualChanges.length > 0 && (
+      <section class="actual-changes">
+        <p class="eyebrow">What actually happened</p>
+        <h2>Changes made in the kitchen</h2>
+        <ul>{recipe.actualChanges.map((change) => <li>{change}</li>)}</ul>
+      </section>
+    )}
+
+    <section class:list={['verdict-panel', `verdict-${recipe.status}`]}>
+      <p class="eyebrow">Post-meal report</p>
+      {recipe.verdict ? (
+        <>
+          <div class="verdict-heading">
+            <h2>{statusLabels[recipe.verdict.status]}</h2>
+            {recipe.verdict.rating && <strong>{recipe.verdict.rating}/5</strong>}
+          </div>
+          {recipe.verdict.familyReaction && <p class="verdict-quote">“{recipe.verdict.familyReaction}”</p>}
+          <div class="verdict-columns">
+            {recipe.verdict.whatWorked && recipe.verdict.whatWorked.length > 0 && (
+              <div><h3>What worked</h3><ul>{recipe.verdict.whatWorked.map((item) => <li>{item}</li>)}</ul></div>
+            )}
+            {recipe.verdict.whatDidnt && recipe.verdict.whatDidnt.length > 0 && (
+              <div><h3>What didn’t</h3><ul>{recipe.verdict.whatDidnt.map((item) => <li>{item}</li>)}</ul></div>
+            )}
+          </div>
+          {recipe.verdict.nextTime && <p><strong>Next time:</strong> {recipe.verdict.nextTime}</p>}
+        </>
+      ) : (
+        <>
+          <h2>Awaiting verdict</h2>
+          <p>This recipe is headed for the table. The honest report comes afterward.</p>
+        </>
+      )}
+    </section>
+  </article>
+
+  <section class="cook-mode" data-cook-mode hidden aria-label={`Cook mode for ${recipe.title}`}>
+    <header class="cook-header">
+      <div><small>Cook Mode</small><strong>{recipe.title}</strong></div>
+      <button type="button" data-close-cook-mode aria-label="Close Cook Mode">×</button>
+    </header>
+
+    <div class="cook-progress" aria-label="Recipe progress">
+      <span data-progress-bar></span>
+    </div>
+
+    <div class="cook-body">
+      <details class="cook-ingredients">
+        <summary>Ingredients <span data-ingredient-progress></span></summary>
+        <div class="cook-serving-control">
+          <button type="button" data-servings-down aria-label="Decrease servings">−</button>
+          <span>Serves <strong data-cook-servings>{recipe.servings}</strong></span>
+          <button type="button" data-servings-up aria-label="Increase servings">+</button>
+        </div>
+        <ul>
+          {recipe.ingredients.map((ingredient, index) => (
+            <li>
+              <label>
+                <input type="checkbox" data-cook-ingredient={index} />
+                <span>
+                  <strong
+                    data-cook-scaled-amount
+                    data-quantity={ingredient.quantity ?? ''}
+                    data-unit={ingredient.unit || ''}
+                  >
+                    {ingredient.quantity} {ingredient.unit}
+                  </strong>{' '}
+                  {ingredient.item}
+                  {ingredient.note && <small>{ingredient.note}</small>}
+                </span>
+              </label>
+            </li>
+          ))}
+        </ul>
+      </details>
+
+      <div class="cook-step" aria-live="polite">
+        <span data-cook-step-count></span>
+        <p data-cook-step-text></p>
+        <button class="button button-timer" type="button" data-start-timer hidden></button>
+      </div>
+
+      <div class="cook-nav">
+        <button class="button button-quiet" type="button" data-previous-step>Previous</button>
+        <button class="button button-primary" type="button" data-next-step>Next step</button>
+      </div>
+    </div>
+
+    <aside class="active-timer" data-active-timer hidden aria-live="assertive">
+      <span>Timer</span>
+      <strong data-timer-display>00:00</strong>
+      <button type="button" data-cancel-timer>Cancel</button>
+    </aside>
+  </section>
+
+  <script define:vars={{ recipeData: recipe }}>
+    const page = document.querySelector('[data-recipe-slug]');
+    const cookMode = document.querySelector('[data-cook-mode]');
+    const stateKey = `ai-cookbook:${recipeData.slug}`;
+    const timerKey = `${stateKey}:timer`;
+    const baseServings = recipeData.servings;
+    let wakeLock = null;
+    let timerInterval = null;
+
+    const defaultState = { servings: baseServings, step: 0, ingredients: [] };
+    const loadState = () => {
+      try { return { ...defaultState, ...JSON.parse(localStorage.getItem(stateKey) || '{}') }; }
+      catch { return { ...defaultState }; }
+    };
+    let state = loadState();
+    const saveState = () => localStorage.setItem(stateKey, JSON.stringify(state));
+
+    const fractions = [[0.125, '⅛'], [0.25, '¼'], [0.333, '⅓'], [0.5, '½'], [0.667, '⅔'], [0.75, '¾']];
+    const formatQuantity = (value) => {
+      if (value === null || value === '' || Number.isNaN(Number(value))) return '';
+      const number = Number(value);
+      const whole = Math.floor(number + 0.001);
+      const decimal = number - whole;
+      const match = fractions.reduce((best, item) => Math.abs(decimal - item[0]) < Math.abs(decimal - best[0]) ? item : best, [0, '']);
+      if (Math.abs(decimal - match[0]) < 0.04) return `${whole || ''}${match[1]}` || '0';
+      return Number(number.toFixed(2)).toString();
+    };
+
+    const updateScaledAmounts = () => {
+      const ratio = state.servings / baseServings;
+      document.querySelectorAll('[data-scaled-amount], [data-cook-scaled-amount]').forEach((element) => {
+        const quantity = element.dataset.quantity;
+        const unit = element.dataset.unit || '';
+        element.textContent = quantity === '' ? '' : `${formatQuantity(Number(quantity) * ratio)} ${unit}`.trim();
+      });
+      document.querySelectorAll('[data-serving-input]').forEach((input) => { input.value = state.servings; });
+      const cookServings = document.querySelector('[data-cook-servings]');
+      if (cookServings) cookServings.textContent = state.servings;
+    };
+
+    const syncIngredientChecks = () => {
+      document.querySelectorAll('[data-ingredient-check], [data-cook-ingredient]').forEach((input) => {
+        const index = Number(input.dataset.ingredientCheck ?? input.dataset.cookIngredient);
+        input.checked = state.ingredients.includes(index);
+      });
+      const progress = document.querySelector('[data-ingredient-progress]');
+      if (progress) progress.textContent = `${state.ingredients.length}/${recipeData.ingredients.length}`;
+    };
+
+    const setIngredient = (index, checked) => {
+      state.ingredients = checked
+        ? [...new Set([...state.ingredients, index])]
+        : state.ingredients.filter((item) => item !== index);
+      saveState();
+      syncIngredientChecks();
+      updateProgress();
+    };
+
+    document.querySelectorAll('[data-ingredient-check], [data-cook-ingredient]').forEach((input) => {
+      input.addEventListener('change', () => {
+        const index = Number(input.dataset.ingredientCheck ?? input.dataset.cookIngredient);
+        setIngredient(index, input.checked);
+      });
+    });
+
+    document.querySelector('[data-serving-input]')?.addEventListener('change', (event) => {
+      state.servings = Math.max(1, Math.min(24, Number(event.target.value) || baseServings));
+      saveState();
+      updateScaledAmounts();
+    });
+
+    const updateProgress = () => {
+      const ingredientPart = state.ingredients.length / Math.max(1, recipeData.ingredients.length);
+      const stepPart = (state.step + 1) / Math.max(1, recipeData.steps.length);
+      const progress = Math.round(((ingredientPart + stepPart) / 2) * 100);
+      const bar = document.querySelector('[data-progress-bar]');
+      if (bar) bar.style.width = `${progress}%`;
+    };
+
+    const renderStep = () => {
+      state.step = Math.max(0, Math.min(recipeData.steps.length - 1, state.step));
+      const step = recipeData.steps[state.step];
+      const count = document.querySelector('[data-cook-step-count]');
+      const text = document.querySelector('[data-cook-step-text]');
+      const timer = document.querySelector('[data-start-timer]');
+      const previous = document.querySelector('[data-previous-step]');
+      const next = document.querySelector('[data-next-step]');
+      if (count) count.textContent = `Step ${state.step + 1} of ${recipeData.steps.length}`;
+      if (text) text.textContent = step.text;
+      if (timer) {
+        timer.hidden = !step.timerMinutes;
+        timer.textContent = step.timerMinutes ? `Start ${step.timerMinutes}-minute timer` : '';
+        timer.dataset.minutes = step.timerMinutes || '';
+      }
+      if (previous) previous.disabled = state.step === 0;
+      if (next) next.textContent = state.step === recipeData.steps.length - 1 ? 'Finish' : 'Next step';
+      saveState();
+      updateProgress();
+    };
+
+    document.querySelector('[data-previous-step]')?.addEventListener('click', () => { state.step -= 1; renderStep(); });
+    document.querySelector('[data-next-step]')?.addEventListener('click', () => {
+      if (state.step === recipeData.steps.length - 1) closeCookMode();
+      else { state.step += 1; renderStep(); }
+    });
+    document.querySelector('[data-servings-down]')?.addEventListener('click', () => {
+      state.servings = Math.max(1, state.servings - 1); saveState(); updateScaledAmounts();
+    });
+    document.querySelector('[data-servings-up]')?.addEventListener('click', () => {
+      state.servings = Math.min(24, state.servings + 1); saveState(); updateScaledAmounts();
+    });
+
+    const requestWakeLock = async () => {
+      try { if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen'); }
+      catch { wakeLock = null; }
+    };
+    const openCookMode = () => {
+      cookMode.hidden = false;
+      document.body.classList.add('cooking');
+      requestWakeLock();
+      renderStep();
+      history.replaceState(null, '', `${location.pathname}?cook=1`);
+    };
+    const closeCookMode = () => {
+      cookMode.hidden = true;
+      document.body.classList.remove('cooking');
+      wakeLock?.release();
+      wakeLock = null;
+      history.replaceState(null, '', location.pathname);
+    };
+    document.querySelector('[data-open-cook-mode]')?.addEventListener('click', openCookMode);
+    document.querySelector('[data-close-cook-mode]')?.addEventListener('click', closeCookMode);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && !cookMode.hidden) requestWakeLock();
+    });
+
+    const timerPanel = document.querySelector('[data-active-timer]');
+    const timerDisplay = document.querySelector('[data-timer-display]');
+    const tickTimer = () => {
+      const end = Number(localStorage.getItem(timerKey));
+      if (!end) { timerPanel.hidden = true; clearInterval(timerInterval); return; }
+      const remaining = Math.max(0, end - Date.now());
+      const minutes = Math.floor(remaining / 60000);
+      const seconds = Math.floor((remaining % 60000) / 1000);
+      timerPanel.hidden = false;
+      timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      if (remaining === 0) {
+        localStorage.removeItem(timerKey);
+        clearInterval(timerInterval);
+        timerDisplay.textContent = 'Done!';
+        navigator.vibrate?.([300, 150, 300]);
+      }
+    };
+    document.querySelector('[data-start-timer]')?.addEventListener('click', (event) => {
+      const minutes = Number(event.currentTarget.dataset.minutes);
+      localStorage.setItem(timerKey, String(Date.now() + minutes * 60000));
+      clearInterval(timerInterval);
+      tickTimer();
+      timerInterval = setInterval(tickTimer, 1000);
+    });
+    document.querySelector('[data-cancel-timer]')?.addEventListener('click', () => {
+      localStorage.removeItem(timerKey); tickTimer();
+    });
+
+    updateScaledAmounts();
+    syncIngredientChecks();
+    renderStep();
+    if (localStorage.getItem(timerKey)) { tickTimer(); timerInterval = setInterval(tickTimer, 1000); }
+    if (new URLSearchParams(location.search).get('cook') === '1') openCookMode();
+  </script>
+</Layout>

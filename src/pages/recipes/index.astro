@@ -1,0 +1,19 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RecipeGrid from '../../components/RecipeGrid.astro';
+import { recipes } from '../../lib/recipes';
+---
+
+<Layout
+  title="Recipes"
+  description="Every recipe from 1 Year Cooking with AI, including the hits, misses, revisions, and final verdicts."
+>
+  <header class="page-header">
+    <p class="eyebrow">The complete experiment</p>
+    <h1>Every recipe. Every verdict.</h1>
+    <p>Search by ingredient, browse by outcome, or revisit a meal worth another attempt.</p>
+  </header>
+  <section class="content-section content-section-tight">
+    <RecipeGrid recipes={recipes} />
+  </section>
+</Layout>

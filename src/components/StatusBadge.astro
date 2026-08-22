@@ -1,0 +1,12 @@
+---
+import type { RecipeStatus } from '../types';
+import { statusLabels } from '../lib/recipes';
+
+interface Props {
+  status: RecipeStatus;
+}
+
+const { status } = Astro.props;
+---
+
+<span class:list={['status-badge', `status-${status}`]}>{statusLabels[status]}</span>

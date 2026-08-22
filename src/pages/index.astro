@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RecipeGrid from '../components/RecipeGrid.astro';
+import { recipes } from '../lib/recipes';
+
+const judged = recipes.filter((recipe) => recipe.status !== 'awaiting-verdict');
+const hits = recipes.filter((recipe) => recipe.status === 'hit');
+const misses = recipes.filter((recipe) => ['miss', 'magnificent-disaster'].includes(recipe.status));
+const averageRating = judged.filter((recipe) => recipe.verdict?.rating).length
+  ? judged.reduce((sum, recipe) => sum + (recipe.verdict?.rating || 0), 0) /
+    judged.filter((recipe) => recipe.verdict?.rating).length
+  : null;
+---
+
+<Layout>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">An honest kitchen experiment</p>
+      <h1>365 days. One AI sous-chef. Every result on the record.</h1>
+      <p class="hero-lede">
+        The hits, the saves, the second attempts—and the occasional dinner that made takeout look
+        visionary.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="/recipes/">Browse the recipes</a>
+        <a class="button button-quiet" href="/about/">How this works</a>
+      </div>
+    </div>
+    <aside class="field-note" aria-label="Project rule">
+      <span>Rule No. 1</span>
+      <p>If it reaches the table, it reaches the record.</p>
+      <small>No selective memory. No suspiciously perfect food blog.</small>
+    </aside>
+  </section>
+
+  <section class="stats-band" aria-label="Year-to-date statistics">
+    <div><strong>{recipes.length}</strong><span>recipes attempted</span></div>
+    <div><strong>{hits.length}</strong><span>confirmed hits</span></div>
+    <div><strong>{misses.length}</strong><span>character builders</span></div>
+    <div><strong>{averageRating ? averageRating.toFixed(1) : '—'}</strong><span>average rating</span></div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Latest from the kitchen</p>
+        <h2>The running record</h2>
+      </div>
+      {recipes.length > 6 && <a href="/recipes/">See every recipe →</a>}
+    </div>
+    <RecipeGrid recipes={recipes.slice(0, 6)} showFilters={false} />
+  </section>
+
+  <section class="project-promise">
+    <p class="eyebrow">What gets documented</p>
+    <div>
+      <h2>The proposed recipe, what actually happened, and the verdict afterward.</h2>
+      <p>
+        Substitutions, family reactions, fixes for next time, and failures all stay attached to the
+        recipe. That is where the useful part of the experiment lives.
+      </p>
+    </div>
+  </section>
+</Layout>

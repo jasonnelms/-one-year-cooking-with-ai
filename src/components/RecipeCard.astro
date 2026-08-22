@@ -1,0 +1,41 @@
+---
+import type { Recipe } from '../types';
+import { formatMinutes } from '../lib/recipes';
+import StatusBadge from './StatusBadge.astro';
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+const date = new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${recipe.publishedDate}T12:00:00Z`));
+---
+
+<article
+  class="recipe-card"
+  data-recipe-card
+  data-status={recipe.status}
+  data-search={`${recipe.title} ${recipe.summary} ${recipe.tags.join(' ')}`.toLowerCase()}
+>
+  <a href={`/recipes/${recipe.slug}/`} aria-label={`View ${recipe.title}`}>
+    <div class="recipe-card-topline">
+      <StatusBadge status={recipe.status} />
+      <time datetime={recipe.publishedDate}>{date}</time>
+    </div>
+    <h3>{recipe.title}</h3>
+    <p>{recipe.summary}</p>
+    <div class="recipe-card-meta">
+      <span>{formatMinutes(recipe.prepMinutes + recipe.cookMinutes)} total</span>
+      <span>{recipe.servings} servings</span>
+      {recipe.verdict?.rating && <span>{recipe.verdict.rating}/5</span>}
+    </div>
+    <ul class="tag-list" aria-label="Tags">
+      {recipe.tags.slice(0, 4).map((tag) => <li>{tag}</li>)}
+    </ul>
+  </a>
+</article>

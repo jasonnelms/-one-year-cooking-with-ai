@@ -1,0 +1,17 @@
+{
+  "name": "1 Year Cooking with AI",
+  "short_name": "AI Cookbook",
+  "description": "A candid year of cooking with an AI sous-chef.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4ecdf",
+  "theme_color": "#9f3f2f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

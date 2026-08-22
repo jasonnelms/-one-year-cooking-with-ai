@@ -1,0 +1,15 @@
+{
+  "name": "one-year-cooking-with-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate:recipes && astro build",
+    "preview": "astro preview",
+    "validate:recipes": "node scripts/validate-recipes.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.2.4"
+  }
+}

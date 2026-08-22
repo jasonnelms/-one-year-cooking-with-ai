@@ -1,0 +1,24 @@
+{
+  "slug": "demo-smoky-chicken",
+  "title": "Test Kitchen Smoky Chicken",
+  "summary": "A private build fixture used to verify every part of the recipe page before the first real meal is published.",
+  "publishedDate": "2026-08-21",
+  "status": "awaiting-verdict",
+  "draft": true,
+  "servings": 3,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "tags": ["test kitchen", "weeknight", "high protein"],
+  "sourceNote": "Build fixture — excluded from the production site.",
+  "ingredients": [
+    { "quantity": 1.5, "unit": "lb", "item": "boneless chicken breast", "note": "cut into thick pieces" },
+    { "quantity": 1, "unit": "tbsp", "item": "smoked paprika" },
+    { "quantity": 0.5, "unit": "tsp", "item": "kosher salt" },
+    { "quantity": 1, "unit": "tbsp", "item": "olive oil" }
+  ],
+  "steps": [
+    { "text": "Heat the oven to 425°F. Toss 1½ lb chicken with 1 tablespoon smoked paprika, ½ teaspoon kosher salt, and 1 tablespoon olive oil." },
+    { "text": "Spread the chicken on a sheet pan and roast for 18 minutes.", "timerMinutes": 18 },
+    { "text": "Check that the thickest piece reaches 165°F, then rest for 5 minutes before serving.", "timerMinutes": 5 }
+  ]
+}
