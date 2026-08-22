@@ -3,7 +3,8 @@
   "title": "Lean Zucchini-Chicken Cornbread Bake",
   "summary": "A high-protein, lower-fat skillet-style bake with yellow zucchini, chicken breast, Greek yogurt, whole eggs, and leftover cornbread crisped on top.",
   "publishedDate": "2026-08-22",
-  "status": "awaiting-verdict",
+  "cookedDate": "2026-08-22",
+  "status": "hit",
   "draft": false,
   "servings": 6,
   "prepMinutes": 15,
@@ -39,5 +40,16 @@
     { "text": "For a crispier top, broil for 1 to 2 minutes at the end, watching closely so the cornbread does not burn.", "timerMinutes": 2 },
     { "text": "Let the bake rest for 10 minutes before serving so it firms up and scoops cleanly.", "timerMinutes": 10 },
     { "text": "If using the optional sauce, stir together the sauce yogurt, hot sauce, Dijon mustard, pickle juice or vinegar, and black pepper to taste. Serve on the side." }
-  ]
+  ],
+  "verdict": {
+    "status": "hit",
+    "rating": 4.5,
+    "loggedDate": "2026-08-22",
+    "familyReaction": "Everyone liked it.",
+    "whatWorked": [
+      "The recipe was easy to cook.",
+      "The crust came out crispy."
+    ],
+    "nextTime": "Try mixing it up with different spice blends."
+  }
 }
