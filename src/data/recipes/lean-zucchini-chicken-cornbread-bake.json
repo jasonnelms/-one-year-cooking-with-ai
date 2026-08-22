@@ -1,0 +1,43 @@
+{
+  "slug": "lean-zucchini-chicken-cornbread-bake",
+  "title": "Lean Zucchini-Chicken Cornbread Bake",
+  "summary": "A high-protein, lower-fat skillet-style bake with yellow zucchini, chicken breast, Greek yogurt, whole eggs, and leftover cornbread crisped on top.",
+  "publishedDate": "2026-08-22",
+  "status": "awaiting-verdict",
+  "draft": false,
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "tags": ["chicken", "zucchini", "cornbread", "weeknight", "high protein", "lower fat"],
+  "sourceNote": "Developed with ChatGPT as a lower-fat, high-protein way to use yellow zucchini and leftover cornbread without separating egg whites.",
+  "ingredients": [
+    { "quantity": 6, "unit": "cups", "item": "yellow zucchini or yellow squash", "note": "diced or sliced" },
+    { "quantity": 4.5, "unit": "cups", "item": "cooked chicken breast", "note": "chopped or shredded; use 4 cups if that is what you have" },
+    { "quantity": 3.5, "unit": "cups", "item": "leftover cornbread", "note": "crumbled; use 3 cups for a lighter bake or 3 3/4 cups to use more leftovers" },
+    { "quantity": 1.125, "unit": "cups", "item": "nonfat Greek yogurt" },
+    { "quantity": 0.75, "unit": "cup", "item": "chicken broth" },
+    { "quantity": 4, "unit": "large", "item": "whole eggs" },
+    { "quantity": 1.5, "unit": "tsp", "item": "Dijon mustard" },
+    { "quantity": 2.25, "unit": "tsp", "item": "poultry seasoning" },
+    { "quantity": 0.75, "unit": "tsp", "item": "smoked paprika" },
+    { "quantity": 0.75, "unit": "tsp", "item": "black pepper" },
+    { "quantity": 1, "unit": "tsp", "item": "kosher salt", "note": "start with 3/4 tsp if the chicken or broth is salty" },
+    { "quantity": 0.5, "unit": "cup", "item": "reduced-fat cheddar or parmesan", "note": "optional; use 1/3 cup for lower fat" },
+    { "quantity": null, "item": "cooking spray or a small drizzle of olive oil", "note": "for the skillet, baking dish, and top" },
+    { "quantity": 0.75, "unit": "cup", "item": "nonfat Greek yogurt", "note": "optional sauce" },
+    { "quantity": 1.5, "unit": "tbsp", "item": "hot sauce", "note": "optional sauce; use 1 to 2 tbsp to taste" },
+    { "quantity": 1.5, "unit": "tsp", "item": "Dijon mustard", "note": "optional sauce" },
+    { "quantity": 1.5, "unit": "tsp", "item": "pickle juice or vinegar", "note": "optional sauce" }
+  ],
+  "steps": [
+    { "text": "Heat the oven to 375°F. Coat a 9x13 baking dish or large oven-safe skillet with cooking spray." },
+    { "text": "Heat a large skillet over medium-high heat. Add the zucchini with cooking spray or a small drizzle of olive oil and a small pinch of the salt. Cook, stirring occasionally, until the zucchini releases moisture and starts to brown slightly. If liquid pools in the skillet, keep cooking until most of it evaporates.", "timerMinutes": 10 },
+    { "text": "In a large bowl, whisk together the Greek yogurt, chicken broth, eggs, Dijon mustard, poultry seasoning, smoked paprika, black pepper, and the remaining salt until smooth." },
+    { "text": "Add the cooked zucchini, chicken, 2 1/2 to 3 cups of the crumbled cornbread, and the optional cheese to the bowl. Stir gently until everything is evenly coated, saving the remaining cornbread for the topping." },
+    { "text": "Spread the mixture evenly into the prepared baking dish. Sprinkle the remaining crumbled cornbread over the top and lightly spray the top with cooking spray so it browns and crisps." },
+    { "text": "Bake until the center is set, the edges are lightly browned, and the top has some color.", "timerMinutes": 35 },
+    { "text": "For a crispier top, broil for 1 to 2 minutes at the end, watching closely so the cornbread does not burn.", "timerMinutes": 2 },
+    { "text": "Let the bake rest for 10 minutes before serving so it firms up and scoops cleanly.", "timerMinutes": 10 },
+    { "text": "If using the optional sauce, stir together the sauce yogurt, hot sauce, Dijon mustard, pickle juice or vinegar, and black pepper to taste. Serve on the side." }
+  ]
+}
