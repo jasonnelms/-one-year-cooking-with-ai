@@ -31,17 +31,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Attach custom domain
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: >-
-          gh api --method PUT
-          -H "Accept: application/vnd.github+json"
-          -H "X-GitHub-Api-Version: 2022-11-28"
-          "/repos/${GITHUB_REPOSITORY}/pages"
-          -f cname="cook.mellowgnome.site"
-          -f build_type="workflow"
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
