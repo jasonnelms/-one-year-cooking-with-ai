@@ -2,8 +2,9 @@
   "slug": "moroccan-spiced-chicken-grilled-peach-couscous",
   "title": "Moroccan-Spiced Chicken with Grilled Peach Couscous & Lemon Yogurt",
   "summary": "A light late-summer dinner of warmly spiced chicken, pearl couscous tossed with charred peaches and vegetables, salty feta, and a cool lemon-garlic yogurt sauce.",
-  "publishedDate": "2026-08-25",
-  "status": "awaiting-verdict",
+  "publishedDate": "2026-08-26",
+  "cookedDate": "2026-08-26",
+  "status": "hit",
   "draft": false,
   "servings": 3,
   "prepMinutes": 20,
@@ -52,5 +53,17 @@
     { "text": "Toss the warm couscous with the charred zucchini and pepper, cucumber, red onion, chickpeas if using, grilled peaches, feta, 1 teaspoon olive oil, about 1 tablespoon lemon juice, and the mint if using. Season with salt and black pepper to taste. The salad should be warm or room temperature rather than piping hot." },
     { "text": "Make the lemon-garlic yogurt by stirring together the Greek yogurt, grated garlic, about 1 tablespoon lemon juice, a little remaining lemon zest, a pinch of salt, and black pepper. Thin with 1 to 2 tablespoons water until it is easily spoonable." },
     { "text": "Spoon the grilled peach couscous onto plates, top with the Moroccan-spiced chicken, and finish generously with the cool lemon yogurt. Serve extra spice blend or hot sauce at the table for anyone who wants more heat." }
-  ]
+  ],
+  "verdict": {
+    "status": "hit",
+    "rating": 4.25,
+    "loggedDate": "2026-08-26",
+    "familyReaction": "Ella did not like the chickpeas, and Judy did not like the mint.",
+    "whatDidnt": [
+      "The chickpeas did not work for Ella.",
+      "The mint did not work for Judy.",
+      "The vegetables were plentiful enough that the couscous faded into the background more than desired."
+    ],
+    "nextTime": "Use a little less of the vegetables so the pearl couscous is more prominent. Consider tossing the peaches with a small amount of brown sugar and ras el hanout-style spice blend before griddling them for deeper caramelization and more aromatic flavor."
+  }
 }
