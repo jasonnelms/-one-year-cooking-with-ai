@@ -1,12 +1,12 @@
 {
   "slug": "smoky-maple-soy-chicken-tenderloins",
-  "title": "Smoky Maple-Soy Chicken Tenderloins with Corn, Zucchini and Black Beans",
-  "summary": "Glazed chicken tenderloins served over a smoky skillet of corn, zucchini and black beans.",
+  "title": "Smoky Maple-Soy Chicken Tenderloins with Butternut Squash, Corn and Black Beans",
+  "summary": "Glazed chicken tenderloins served over a smoky skillet of butternut squash, corn and black beans.",
   "publishedDate": "2026-09-02",
   "status": "awaiting-verdict",
   "servings": 2,
-  "prepMinutes": 10,
-  "cookMinutes": 20,
+  "prepMinutes": 5,
+  "cookMinutes": 25,
   "tags": [
     "weeknight",
     "high-protein",
@@ -14,7 +14,7 @@
     "skillet",
     "30-minute"
   ],
-  "sourceNote": "A quick, high-protein dinner built around chicken tenderloins and pantry-friendly vegetables without relying on potatoes or rice.",
+  "sourceNote": "A quick, high-protein dinner built around chicken tenderloins, pre-cut butternut squash and pantry-friendly vegetables without relying on potatoes or rice.",
   "ingredients": [
     {
       "quantity": 1,
@@ -22,13 +22,12 @@
       "item": "boneless, skinless chicken tenderloins"
     },
     {
-      "quantity": 1,
-      "unit": null,
-      "item": "medium zucchini",
-      "note": "diced"
+      "quantity": 12,
+      "unit": "oz",
+      "item": "pre-cubed butternut squash"
     },
     {
-      "quantity": 2,
+      "quantity": 1.5,
       "unit": "cups",
       "item": "frozen corn"
     },
@@ -77,10 +76,10 @@
       "note": "to taste"
     },
     {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "tbsp",
       "item": "water",
-      "note": "as needed"
+      "note": "divided, as needed"
     }
   ],
   "steps": [
@@ -102,26 +101,26 @@
       "text": "Reduce the heat to medium. Pour the maple-soy glaze over the chicken and turn the tenderloins through it for 30 to 60 seconds, until the glaze thickens and the chicken reaches 165 F."
     },
     {
-      "text": "Transfer the chicken to a plate and let it rest for 5 minutes.",
+      "text": "Transfer the chicken to a plate and let it rest for at least 5 minutes. While it rests, place 12 oz pre-cubed butternut squash and 1 tbsp water in a covered microwave-safe bowl; microwave for 4 to 5 minutes, until barely fork-tender NCC.",
       "timerMinutes": 5
     },
     {
-      "text": "Add up to 2 tbsp water to the skillet and scrape up the browned glaze."
+      "text": "Drain the butternut squash well. Add up to 2 tbsp water to the skillet and scrape up the browned glaze."
     },
     {
-      "text": "Add the remaining 2 tsp olive oil and 1 diced medium zucchini. Cook over medium-high heat for 3 minutes.",
-      "timerMinutes": 3
+      "text": "Add the remaining 2 tsp olive oil and the par-cooked butternut squash. Cook over medium-high heat for 4 to 5 minutes, until browned in spots.",
+      "timerMinutes": 5
     },
     {
-      "text": "Add 2 cups frozen corn, the remaining 1/2 tsp smoked paprika, 1/4 tsp ground cumin, salt and black pepper. Cook for 5 to 7 minutes, stirring occasionally, until the corn is hot and begins to brown.",
-      "timerMinutes": 6
+      "text": "Add 1.5 cups frozen corn, the remaining 1/2 tsp smoked paprika, 1/4 tsp ground cumin, salt and black pepper. Cook for 4 minutes, stirring occasionally, until the corn is hot.",
+      "timerMinutes": 4
     },
     {
       "text": "Add 1/2 of a 15-oz can of rinsed and drained black beans. Cook for 2 to 3 minutes, then taste and adjust the salt and pepper.",
       "timerMinutes": 3
     },
     {
-      "text": "Divide the corn, zucchini and black bean mixture between two plates and top with the glazed chicken tenderloins."
+      "text": "Divide the butternut squash, corn and black bean mixture between two plates and top with the glazed chicken tenderloins."
     }
   ]
 }
