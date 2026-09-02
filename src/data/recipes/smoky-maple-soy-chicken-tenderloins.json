@@ -1,0 +1,127 @@
+{
+  "slug": "smoky-maple-soy-chicken-tenderloins",
+  "title": "Smoky Maple-Soy Chicken Tenderloins with Corn, Zucchini and Black Beans",
+  "summary": "Glazed chicken tenderloins served over a smoky skillet of corn, zucchini and black beans.",
+  "publishedDate": "2026-09-02",
+  "status": "awaiting-verdict",
+  "servings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "tags": [
+    "weeknight",
+    "high-protein",
+    "chicken",
+    "skillet",
+    "30-minute"
+  ],
+  "sourceNote": "A quick, high-protein dinner built around chicken tenderloins and pantry-friendly vegetables without relying on potatoes or rice.",
+  "ingredients": [
+    {
+      "quantity": 1,
+      "unit": "lb",
+      "item": "boneless, skinless chicken tenderloins"
+    },
+    {
+      "quantity": 1,
+      "unit": null,
+      "item": "medium zucchini",
+      "note": "diced"
+    },
+    {
+      "quantity": 2,
+      "unit": "cups",
+      "item": "frozen corn"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "15-oz can",
+      "item": "black beans",
+      "note": "rinsed and drained"
+    },
+    {
+      "quantity": 4,
+      "unit": "tsp",
+      "item": "olive oil",
+      "note": "divided"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "low-sodium soy sauce"
+    },
+    {
+      "quantity": 2,
+      "unit": "tsp",
+      "item": "maple syrup"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "note": "divided"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "item": "ground ginger"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "item": "ground cumin"
+    },
+    {
+      "quantity": null,
+      "unit": null,
+      "item": "kosher salt and black pepper",
+      "note": "to taste"
+    },
+    {
+      "quantity": 2,
+      "unit": "tbsp",
+      "item": "water",
+      "note": "as needed"
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a small bowl, combine 1 tbsp low-sodium soy sauce, 2 tsp maple syrup, 1 tsp olive oil, 1/2 tsp smoked paprika and 1/4 tsp ground ginger."
+    },
+    {
+      "text": "Pat 1 lb chicken tenderloins dry and season them with black pepper. Do not add salt; the soy sauce supplies the seasoning."
+    },
+    {
+      "text": "Heat 1 tsp olive oil in a large skillet over medium-high heat. Add the chicken tenderloins in a single layer and cook for 3 to 4 minutes. Work in two batches if needed to avoid crowding.",
+      "timerMinutes": 4
+    },
+    {
+      "text": "Turn the chicken tenderloins and cook for another 2 to 3 minutes.",
+      "timerMinutes": 3
+    },
+    {
+      "text": "Reduce the heat to medium. Pour the maple-soy glaze over the chicken and turn the tenderloins through it for 30 to 60 seconds, until the glaze thickens and the chicken reaches 165 F."
+    },
+    {
+      "text": "Transfer the chicken to a plate and let it rest for 5 minutes.",
+      "timerMinutes": 5
+    },
+    {
+      "text": "Add up to 2 tbsp water to the skillet and scrape up the browned glaze."
+    },
+    {
+      "text": "Add the remaining 2 tsp olive oil and 1 diced medium zucchini. Cook over medium-high heat for 3 minutes.",
+      "timerMinutes": 3
+    },
+    {
+      "text": "Add 2 cups frozen corn, the remaining 1/2 tsp smoked paprika, 1/4 tsp ground cumin, salt and black pepper. Cook for 5 to 7 minutes, stirring occasionally, until the corn is hot and begins to brown.",
+      "timerMinutes": 6
+    },
+    {
+      "text": "Add 1/2 of a 15-oz can of rinsed and drained black beans. Cook for 2 to 3 minutes, then taste and adjust the salt and pepper.",
+      "timerMinutes": 3
+    },
+    {
+      "text": "Divide the corn, zucchini and black bean mixture between two plates and top with the glazed chicken tenderloins."
+    }
+  ]
+}
