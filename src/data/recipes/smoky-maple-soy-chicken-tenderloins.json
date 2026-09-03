@@ -3,8 +3,8 @@
   "title": "Smoky Maple-Soy Chicken Tenderloins with Butternut Squash, Corn and Black Beans",
   "summary": "Glazed chicken tenderloins served over a smoky skillet of butternut squash, corn and black beans.",
   "publishedDate": "2026-09-02",
-  "status": "awaiting-verdict",
-  "servings": 2,
+  "status": "needs-work",
+  "servings": 3,
   "prepMinutes": 5,
   "cookMinutes": 25,
   "tags": [
@@ -120,7 +120,24 @@
       "timerMinutes": 3
     },
     {
-      "text": "Divide the butternut squash, corn and black bean mixture between two plates and top with the glazed chicken tenderloins."
+      "text": "Divide the butternut squash, corn and black bean mixture among three plates and top with the glazed chicken tenderloins."
     }
-  ]
+  ],
+  "cookedDate": "2026-09-02",
+  "actualChanges": [
+    "The logged plate contained 8 oz chicken, 7.5 oz butternut squash, 212.5 g sweet corn and 3/4 cup black beans.",
+    "Served with 1 slice of homemade sourdough bread.",
+    "The logged dinner totaled 854 calories, 71 g protein and 16 g fiber."
+  ],
+  "verdict": {
+    "status": "needs-work",
+    "rating": 2.5,
+    "loggedDate": "2026-09-03",
+    "familyReaction": "Collectively rated 2.5 out of 5. The serving was far too large, and the dish needed a balancing element such as acid, sour cream or yogurt.",
+    "whatDidnt": [
+      "Dividing the recipe between two people produced portions that were much too large.",
+      "The sweet, earthy and smoky components lacked enough acidity or tang to balance them."
+    ],
+    "nextTime": "Treat the recipe as 3 servings. Stir 2 tsp apple cider vinegar into the finished squash, corn and black beans, and serve each portion with 2 tbsp plain Greek yogurt or sour cream."
+  }
 }
