@@ -1,0 +1,268 @@
+{
+  "slug": "cartmans-chocolate-chicken-pot-pie",
+  "title": "Cartman's Chocolate Chicken Pot Pie",
+  "summary": "A tomato-free chicken pot pie with a quick ancho-guajillo mole-style filling and a flaky savory cocoa crust.",
+  "publishedDate": "2026-09-12",
+  "status": "awaiting-verdict",
+  "draft": false,
+  "servings": 6,
+  "prepMinutes": 35,
+  "cookMinutes": 65,
+  "tags": [
+    "chicken",
+    "pot pie",
+    "mole-inspired",
+    "tomato-free",
+    "chocolate",
+    "baking"
+  ],
+  "sourceNote": "An AI Sous Chef experiment turning an absurd fictional chocolate chicken pot pie into a genuinely savory dinner: chile-forward, warmly spiced, and chocolatey without tasting like dessert.",
+  "ingredients": [
+    {
+      "quantity": 1.25,
+      "unit": "cups",
+      "item": "all-purpose flour",
+      "note": "plus more for rolling"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa powder",
+      "note": "for the pastry"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "note": "for the pastry"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "note": "for the pastry"
+    },
+    {
+      "quantity": 0.0625,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "note": "a tiny pinch, for the pastry"
+    },
+    {
+      "quantity": 8,
+      "unit": "tbsp",
+      "item": "cold unsalted butter",
+      "note": "cut into small cubes"
+    },
+    {
+      "quantity": 3,
+      "unit": "tbsp",
+      "item": "ice water",
+      "note": "plus up to 2 tbsp more as needed"
+    },
+    {
+      "quantity": 1,
+      "unit": "large",
+      "item": "egg",
+      "note": "for egg wash"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "water",
+      "note": "for egg wash"
+    },
+    {
+      "quantity": 1.5,
+      "unit": "lb",
+      "item": "boneless skinless chicken thighs",
+      "note": "cut into 1-inch pieces"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "note": "divided, plus more to taste"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "neutral oil"
+    },
+    {
+      "quantity": 1,
+      "unit": "medium",
+      "item": "yellow onion",
+      "note": "diced"
+    },
+    {
+      "quantity": 3,
+      "unit": "cloves",
+      "item": "garlic",
+      "note": "minced"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "sesame seeds"
+    },
+    {
+      "quantity": 2,
+      "unit": "tbsp",
+      "item": "pure ancho chile powder",
+      "note": "not a generic chili seasoning blend"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "pure guajillo chile powder"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "ground cumin"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "smoked paprika"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "Mexican oregano"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "item": "ground cinnamon"
+    },
+    {
+      "quantity": 0.0625,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "note": "a tiny pinch"
+    },
+    {
+      "quantity": 2,
+      "unit": "cups",
+      "item": "low-sodium chicken stock"
+    },
+    {
+      "quantity": 2,
+      "unit": "tbsp",
+      "item": "pepita butter or unsweetened natural peanut butter"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa powder",
+      "note": "for the filling"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "brown sugar",
+      "note": "plus more to taste"
+    },
+    {
+      "quantity": 1,
+      "unit": "small",
+      "item": "sweet potato",
+      "note": "peeled and cut into 1/4- to 3/8-inch cubes"
+    },
+    {
+      "quantity": 1,
+      "unit": "cup",
+      "item": "frozen corn"
+    },
+    {
+      "quantity": 4,
+      "unit": "oz",
+      "item": "fire-roasted poblano or mild diced green chiles",
+      "note": "drained"
+    },
+    {
+      "quantity": 1,
+      "unit": "oz",
+      "item": "70–85% dark chocolate",
+      "note": "finely chopped"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "apple cider vinegar"
+    },
+    {
+      "quantity": 2,
+      "unit": "tbsp",
+      "item": "masa harina",
+      "note": "start with 1 1/2 tbsp"
+    },
+    {
+      "quantity": 4,
+      "unit": "tbsp",
+      "item": "cold water",
+      "note": "for the masa slurry; use only as needed"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Make the pastry first. Whisk together 1 1/4 cups all-purpose flour, 1 tbsp cocoa powder, 1/2 tsp kosher salt, 1/4 tsp smoked paprika, and a tiny pinch (1/16 tsp) cinnamon."
+    },
+    {
+      "text": "Cut 8 tbsp cold cubed butter into the flour mixture until it contains coarse crumbs and pea-sized butter pieces. Toss in 3 tbsp ice water. Add up to 2 tbsp more ice water, 1 tsp at a time, stopping as soon as the dough holds together when squeezed; do not knead."
+    },
+    {
+      "text": "Shape the pastry into a disk, wrap it, and refrigerate for at least 30 minutes. The filling can be made while it chills.",
+      "timerMinutes": 30
+    },
+    {
+      "text": "Heat the oven to 400°F. Set a 9-inch deep-dish pie plate on a rimmed sheet pan."
+    },
+    {
+      "text": "Pat 1 1/2 lb chicken thigh pieces dry and season with 1/2 tsp kosher salt. Heat 1 tbsp neutral oil in a large deep skillet or Dutch oven over medium-high heat. Brown the chicken in one uncrowded layer, working in two batches if needed, for 4 to 5 minutes total; it does not need to be cooked through. Transfer it to a plate.",
+      "timerMinutes": 5
+    },
+    {
+      "text": "Reduce the heat to medium. Add 1 diced onion and cook for 4 minutes, stirring occasionally. Add 3 minced garlic cloves and 1 tbsp sesame seeds; cook for 30 seconds.",
+      "timerMinutes": 4
+    },
+    {
+      "text": "Add 2 tbsp ancho chile powder, 1 tbsp guajillo chile powder, 1 tsp cumin, 1/2 tsp smoked paprika, 1/2 tsp Mexican oregano, 1/4 tsp cinnamon, and a tiny pinch (1/16 tsp) ground cloves. Stir constantly for 20 to 30 seconds, just until fragrant; do not let the chile powders scorch."
+    },
+    {
+      "text": "Whisk in 2 cups chicken stock, 2 tbsp pepita or peanut butter, 1 tbsp cocoa powder, and 1 tsp brown sugar. Add the diced sweet potato and bring the sauce to a gentle simmer."
+    },
+    {
+      "text": "Return the browned chicken and any juices to the skillet. Simmer uncovered for 10 to 12 minutes, stirring occasionally, until the sweet potato is almost tender and the chicken reaches at least 165°F.",
+      "timerMinutes": 12
+    },
+    {
+      "text": "Stir in 1 cup frozen corn, 4 oz drained fire-roasted poblano or diced green chiles, 1 oz chopped dark chocolate, and 1 tbsp apple cider vinegar. Cook for 2 minutes, stirring until the chocolate has completely melted.",
+      "timerMinutes": 2
+    },
+    {
+      "text": "Whisk 1 1/2 tbsp masa harina with 3 tbsp cold water until smooth. Stir the slurry into the filling and simmer for 2 to 3 minutes. The filling should be scoopable rather than pourable; if still loose, whisk the remaining 1/2 tbsp masa harina with the remaining 1 tbsp water, stir it in, and simmer for 1 minute.",
+      "timerMinutes": 3
+    },
+    {
+      "text": "Taste the filling. Add the remaining 1/2 tsp kosher salt as needed. If the chocolate tastes harsh, add a small pinch of brown sugar; if the filling tastes flat or too sweet, add a small splash of apple cider vinegar. Transfer the filling to the 9-inch deep-dish pie plate and cool for 10 to 15 minutes so it does not melt the pastry butter.",
+      "timerMinutes": 15
+    },
+    {
+      "text": "On a lightly floured surface, roll the chilled pastry to about 1/8 inch thick and 10 to 10 1/2 inches across. Lay it over the filling, trim the excess, and crimp the edge against the pie plate. Cut 4 to 6 steam vents in the center."
+    },
+    {
+      "text": "Whisk 1 large egg with 1 tsp water and brush a thin layer over the pastry. If desired, cut a decoration from the pastry scraps and attach it with a dab of egg wash."
+    },
+    {
+      "text": "Bake the pie on its sheet pan at 400°F for 30 to 35 minutes, until the pastry looks crisp and dry, the edges are deeply browned, and the filling bubbles through the vents.",
+      "timerMinutes": 35
+    },
+    {
+      "text": "Let the pot pie rest for 15 minutes before cutting. Serve hot, checking that the center remains at least 165°F.",
+      "timerMinutes": 15
+    }
+  ]
+}
