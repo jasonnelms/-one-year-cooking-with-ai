@@ -158,7 +158,7 @@
   "verdict": {
     "status": "hit",
     "loggedDate": "2026-09-13",
-    "familyReaction": "Four tasters rated the chicken 4/5, 4/5, 4/5, and 5/5. Their corresponding sauce/spice ratings were 5/5, 5/5, 3.5/5, and 4.25/5 (the final rating was for the sauce). The first taster noted being tired of chicken. The third and fourth tasters found the sauce too sweet.",
+    "familyReaction": "Four tasters rated the chicken 4/5, 4/5, 4/5, and 5/5. Their corresponding sauce/spice ratings were 5/5, 5/5, 3.5/5, and 4.25/5 (the final rating was for the sauce). The first taster noted being tired of chicken. The third and fourth tasters found the sauce too sweet. Overall score: 4.34/5, calculated by weighting all eight chicken and sauce/spice ratings equally.",
     "whatWorked": [
       "The chicken was flavorful and tender, earning a 5/5 from the cook.",
       "Two tasters gave the sauce and spices 5/5."
@@ -166,6 +166,7 @@
     "whatDidnt": [
       "The sweetness intensified during cooking; two tasters wanted a less-sweet sauce."
     ],
-    "nextTime": "Try adding 2 more tbsp apple cider vinegar to the 2 tbsp used in this batch, for 4 tbsp (¼ cup) total. This adjustment has not yet been tested."
+    "nextTime": "Try adding 2 more tbsp apple cider vinegar to the 2 tbsp used in this batch, for 4 tbsp (¼ cup) total. This adjustment has not yet been tested.",
+    "rating": 4.34
   }
 }
