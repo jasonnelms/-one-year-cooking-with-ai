@@ -1,0 +1,155 @@
+{
+  "slug": "apple-pecan-butter-smoked-chicken-thighs",
+  "title": "Apple-Pecan Butter Smoked Chicken Thighs",
+  "summary": "Mildly seasoned chicken thighs smoked low, finished hot, and brushed with a sweet-savory apple-pecan BBQ glaze.",
+  "publishedDate": "2026-09-12",
+  "status": "awaiting-verdict",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 110,
+  "tags": [
+    "smoker",
+    "chicken",
+    "pellet-grill",
+    "apple-pecan",
+    "mild"
+  ],
+  "sourceNote": "An apple-pecan butter pantry find inspires a smoke-forward chicken dinner with a familiar, mild BBQ glaze. Proposed recipe; awaiting its first cooking verdict.",
+  "ingredients": [
+    {
+      "quantity": 8,
+      "unit": "",
+      "item": "bone-in, skin-on chicken thighs",
+      "note": "6–8 thighs, serving 3–4"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "note": "or cooking spray"
+    },
+    {
+      "quantity": 1.5,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 1.5,
+      "unit": "tsp",
+      "item": "smoked paprika",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "onion powder",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "item": "black pepper",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "brown sugar",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "dried thyme",
+      "note": "for the rub"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "item": "cayenne",
+      "note": "optional; omit for a mild version"
+    },
+    {
+      "quantity": 0.3333333333,
+      "unit": "cup",
+      "item": "apple-pecan butter",
+      "note": "for the glaze"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "cup",
+      "item": "mild BBQ sauce",
+      "note": "for the glaze"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "apple cider vinegar",
+      "note": "plus 1–2 tsp if needed to balance a very sweet apple butter"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "Dijon mustard"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "soy sauce"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "note": "for the glaze"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "water",
+      "note": "1–2 tbsp as needed to make the glaze brushable"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Pat 6–8 bone-in, skin-on chicken thighs dry and lightly coat with 1 tbsp neutral oil. Combine 1½ tsp kosher salt, 1½ tsp smoked paprika, 1 tsp garlic powder, 1 tsp onion powder, ¾ tsp black pepper, 1 tsp brown sugar, and ½ tsp dried thyme. Omit cayenne for mild chicken, or add up to ¼ tsp. Season all over and under the skin where accessible. Optionally refrigerate uncovered for a few hours to dry the skin."
+    },
+    {
+      "text": "Mix ⅓ cup apple-pecan butter, ¼ cup mild BBQ sauce, 1 tbsp apple cider vinegar, 1 tbsp Worcestershire sauce, 1 tbsp Dijon mustard, 1 tsp soy sauce, and ½ tsp garlic powder. Thin with 1–2 tbsp water. Taste for apple-forward, sweet-savory balance; add 1–2 tsp more vinegar if overly sweet. Before any brush touches the chicken, reserve ¼ cup in a separate clean container for serving."
+    },
+    {
+      "text": "Preheat the pellet smoker to 225°F. Pecan, apple, cherry, or a mild hickory pellet works well. Use a grate-level thermometer if the controller temperature is unreliable."
+    },
+    {
+      "text": "Place the thighs skin-side up and smoke without glaze for approximately 60–75 minutes, checking at 60 minutes. Aim for roughly 140–150°F in the thickest part, away from bone. This is an intermediate temperature, not the finished safe temperature; proceed directly to the hot finish.",
+      "timerMinutes": 60
+    },
+    {
+      "text": "Raise the smoker to 375°F and continue cooking for approximately 15–20 minutes before glazing. Timing depends on thigh size and how quickly the smoker heats; check internal temperature and skin as you go.",
+      "timerMinutes": 15
+    },
+    {
+      "text": "Brush on a thin layer of the cooking glaze. Cook at 375°F for about 10 minutes, watching for scorching, then apply a second thin layer.",
+      "timerMinutes": 10
+    },
+    {
+      "text": "Continue cooking until the thickest part of each thigh reaches about 180–185°F, checking away from bone. Poultry must reach at least 165°F; the higher target gives thighs a more tender texture. If the skin needs more browning and the glaze is not dark, optionally finish at 400–425°F for 5–8 minutes, watching continuously because the sugars can burn. Do not chase crisp skin at the expense of scorching the glaze."
+    },
+    {
+      "text": "Rest the chicken for 5–10 minutes. Warm the clean, reserved ¼ cup glaze separately and spoon a little over the cooked thighs using a clean utensil. Discard leftover glaze used with the cooking brush. Serve with mac and cheese and green beans if desired.",
+      "timerMinutes": 5
+    }
+  ]
+}
