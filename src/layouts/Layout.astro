@@ -22,7 +22,7 @@ const pageTitle = title === '1 Year Cooking with AI' ? title : `${title} · 1 Ye
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="theme-color" content="#9f3f2f" />
+    <meta name="theme-color" content="#a44724" />
     <meta name="description" content={description} />
     <meta name="follow.it-verification-code" content="4pXgGGCglVp0smJQDR8x" />
     <meta property="og:title" content={pageTitle} />
@@ -41,15 +41,15 @@ const pageTitle = title === '1 Year Cooking with AI' ? title : `${title} · 1 Ye
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="/" aria-label="1 Year Cooking with AI home">
-        <span class="brand-mark" aria-hidden="true">365</span>
+        <span class="brand-logo" aria-hidden="true"><img src="/gnome-badge.png" alt="" width="1254" height="1254" /></span>
         <span>
           <strong>1 Year Cooking</strong>
           <small>with AI</small>
         </span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="/recipes/">Recipes</a>
-        <a href="/about/">About</a>
+        <a href="/recipes/" aria-current={Astro.url.pathname.startsWith("/recipes/") ? "page" : undefined}>Recipes</a>
+        <a href="/about/" aria-current={Astro.url.pathname === "/about/" ? "page" : undefined}>About</a>
       </nav>
     </header>
 

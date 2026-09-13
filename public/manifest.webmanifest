@@ -4,8 +4,8 @@
   "description": "A candid year of cooking with an AI sous-chef.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4ecdf",
-  "theme_color": "#9f3f2f",
+  "background_color": "#f3e7d3",
+  "theme_color": "#a44724",
   "icons": [
     {
       "src": "/favicon.svg",

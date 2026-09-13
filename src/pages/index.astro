@@ -16,7 +16,7 @@ const averageRating = judged.filter((recipe) => recipe.verdict?.rating).length
 <Layout>
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">An honest kitchen experiment</p>
+      <p class="eyebrow">The MellowGnome kitchen journal</p>
       <h1>365 days. One AI sous-chef. Every result on the record.</h1>
       <p class="hero-lede">
         The hits, the saves, the second attempts—and the occasional dinner that made takeout look
@@ -27,11 +27,14 @@ const averageRating = judged.filter((recipe) => recipe.verdict?.rating).length
         <a class="button button-quiet" href="/about/">How this works</a>
       </div>
     </div>
+    <div class="hero-emblem">
+      <div class="hero-logo"><img src="/gnome-badge.png" alt="MellowGnome: a red-hatted gnome with a cream beard in a gold-edged badge" width="1254" height="1254" /></div>
     <aside class="field-note" aria-label="Project rule">
       <span>Rule No. 1</span>
       <p>If it reaches the table, it reaches the record.</p>
       <small>No selective memory. No suspiciously perfect food blog.</small>
     </aside>
+    </div>
   </section>
 
   <section class="stats-band" aria-label="Year-to-date statistics">

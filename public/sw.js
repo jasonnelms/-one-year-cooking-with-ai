@@ -1,5 +1,5 @@
-const CACHE = 'ai-cookbook-v1';
-const SHELL = ['/', '/recipes/', '/about/', '/manifest.webmanifest', '/favicon.svg'];
+const CACHE = 'ai-cookbook-autumn-v2';
+const SHELL = ['/', '/recipes/', '/about/', '/manifest.webmanifest', '/favicon.svg', '/gnome-badge.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
