@@ -345,7 +345,7 @@ h1, h2, h3 { margin-top: 0; font-family: Georgia, ui-serif, serif; line-height: 
 .site-header { min-height: 104px; border-bottom: 3px double var(--ink); }
 .brand-logo, .hero-logo { position: relative; display: block; overflow: hidden; aspect-ratio: 775 / 812; flex-shrink: 0; }
 .brand-logo { width: 54px; }
-.brand-logo img, .hero-logo img { position: absolute; width: 161.81%; max-width: none; left: -30.97%; top: -6.77%; }
+.brand-logo img, .hero-logo img { position: absolute; width: 161.81%; height: auto; max-width: none; left: -30.97%; top: -6.77%; }
 .brand small { margin-top: 0.25rem; }
 .site-header nav a { padding-block: 0.7rem; border-bottom: 2px solid transparent; }
 .site-header nav a:hover, .site-header nav a[aria-current="page"] { border-color: var(--paprika); }
