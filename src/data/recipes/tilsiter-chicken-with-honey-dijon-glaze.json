@@ -1,0 +1,121 @@
+{
+  "slug": "tilsiter-chicken-with-honey-dijon-glaze",
+  "title": "Tilsiter Chicken with Honey-Dijon Glaze",
+  "summary": "Lightly crisp chicken cutlets topped with melted Tilsiter, served with a tangy-sweet pan glaze and fire-roasted vegetables.",
+  "publishedDate": "2026-09-15",
+  "status": "awaiting-verdict",
+  "servings": 3,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "tags": [
+    "weeknight",
+    "chicken",
+    "high-protein",
+    "vegetable-forward",
+    "skillet"
+  ],
+  "sourceNote": "A protein-forward weeknight chicken dinner made more interesting with nutty Tilsiter, a sharp honey-Dijon glaze, and a generous helping of roasted vegetables.",
+  "ingredients": [
+    {
+      "quantity": 1.5,
+      "unit": "lb",
+      "item": "boneless, skinless chicken breasts",
+      "note": "sliced horizontally into thin cutlets"
+    },
+    {
+      "quantity": 6,
+      "unit": "cups",
+      "item": "frozen fire-roasted Primavera vegetable mix",
+      "note": "such as PuraVida; keep frozen until roasting"
+    },
+    {
+      "quantity": 3,
+      "unit": "oz",
+      "item": "Tilsiter cheese",
+      "note": "thinly sliced or shredded"
+    },
+    {
+      "quantity": 0.3333333333,
+      "unit": "cup",
+      "item": "panko breadcrumbs",
+      "note": "for a light one-sided crust"
+    },
+    {
+      "quantity": 1,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "note": "for cooking the chicken"
+    },
+    {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "item": "kosher salt"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "garlic powder"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "dried thyme"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "black pepper"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "cup",
+      "item": "low-sodium chicken broth",
+      "note": "for the glaze"
+    },
+    {
+      "quantity": 1.5,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "note": "for the glaze"
+    },
+    {
+      "quantity": 2,
+      "unit": "tsp",
+      "item": "honey",
+      "note": "or maple syrup"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "apple cider vinegar",
+      "note": "optional, for extra tang"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 425°F. Spread 6 cups frozen fire-roasted Primavera vegetables in a single layer on a large sheet pan. Because the vegetables are already coated in avocado oil, do not add more unless the package directions call for it. Roast for 18–25 minutes, stirring once, until hot with browned edges rather than soft and steamy.",
+      "timerMinutes": 18
+    },
+    {
+      "text": "While the vegetables roast, slice 1½ lb chicken breasts horizontally into thin cutlets. If needed, pound them to an even ½-inch thickness. Season both sides with ¾ tsp kosher salt, 1 tsp garlic powder, ½ tsp dried thyme, and ½ tsp black pepper."
+    },
+    {
+      "text": "Spread ⅓ cup panko on a plate. Press one side of each seasoned cutlet firmly into the panko to make a thin, one-sided crust; discard any panko that contacted raw chicken."
+    },
+    {
+      "text": "Heat 1 tbsp olive oil in a large skillet over medium to medium-high heat. Place the cutlets panko-side down and cook for 3–4 minutes until deeply golden. Flip and cook for another 3–5 minutes, adjusting the heat as needed, until the chicken is nearly cooked through.",
+      "timerMinutes": 3
+    },
+    {
+      "text": "Divide 3 oz Tilsiter over the chicken. Reduce the heat to low, cover the skillet, and cook for 1–2 minutes until the cheese melts and the thickest part of every cutlet reaches 165°F. Transfer the chicken to a plate and keep warm.",
+      "timerMinutes": 1
+    },
+    {
+      "text": "Add ½ cup chicken broth, 1½ tbsp Dijon mustard, 2 tsp honey, and the optional 1 tsp apple cider vinegar to the same skillet. Scrape up the browned bits and simmer for 2–4 minutes, stirring, until the glaze lightly coats a spoon. Taste and adjust with black pepper or a small splash of vinegar.",
+      "timerMinutes": 2
+    },
+    {
+      "text": "Serve the Tilsiter-topped chicken with the roasted vegetables. Spoon the honey-Dijon glaze over the chicken and vegetables, or serve it at the table so each person can add as much as desired."
+    }
+  ]
+}
