@@ -14,13 +14,13 @@
     "vegetable-forward",
     "skillet"
   ],
-  "sourceNote": "A protein-forward weeknight chicken dinner made more interesting with nutty Tilsiter, a sharp honey-Dijon glaze, and a generous helping of roasted vegetables. Estimated nutrition per serving (⅓ of the complete recipe, including vegetables): approximately 550 calories, 62 g protein, 6 g fiber, and 24 g fat. Calculated using raw chicken weight, generic Tilsit cheese values, and the listed PuraVida Primavera label values of 40 calories, 1 g protein, 2 g fiber, and 2 g fat per ⅔ cup (85 g). Six cups of vegetables are treated as approximately 765 g before cooking. Includes all 1 tbsp cooking oil, 3 oz cheese, and the full honey-Dijon glaze; excludes optional vinegar. These are rounded ingredient-based estimates, not laboratory measurements; brands, measured portions, and sauce or oil left in the pan will change the result.",
+  "sourceNote": "A protein-forward weeknight chicken dinner made more interesting with nutty Tilsiter, a sharp honey-Dijon glaze, and a generous helping of roasted vegetables. Estimated nutrition per serving (⅓ of the complete recipe, including vegetables): approximately 610 calories, 72 g protein, 6 g fiber, and 25 g fat. Calculated using an estimated 818 g raw chicken weight, generic Tilsit cheese values, and the listed PuraVida Primavera label values of 40 calories, 1 g protein, 2 g fiber, and 2 g fat per ⅔ cup (85 g). Six cups of vegetables are treated as approximately 765 g before cooking. Includes all 1 tbsp cooking oil, 3 oz cheese, and the full honey-Dijon glaze; excludes optional vinegar. These are rounded ingredient-based estimates, not laboratory measurements; brands, measured portions, and sauce or oil left in the pan will change the result.",
   "ingredients": [
     {
-      "quantity": 1.5,
-      "unit": "lb",
+      "quantity": 818,
+      "unit": "g",
       "item": "boneless, skinless chicken breasts",
-      "note": "cut into roughly 1-inch chunks; kitchen shears work well"
+      "note": "raw weight (about 1.8 lb); cut into roughly 1-inch chunks; kitchen shears work well"
     },
     {
       "quantity": 6,
@@ -91,7 +91,7 @@
       "timerMinutes": 18
     },
     {
-      "text": "While the vegetables roast at 425°F, cut 1½ lb chicken breasts into roughly 1-inch chunks with a knife or kitchen shears. Keep the pieces similar in size. Pat dry and toss with ¾ tsp kosher salt, 1 tsp garlic powder, ½ tsp dried thyme, and ½ tsp black pepper. No breading is needed."
+      "text": "While the vegetables roast at 425°F, cut 818 g (about 1.8 lb) chicken breasts into roughly 1-inch chunks with a knife or kitchen shears. Keep the pieces similar in size. Pat dry and toss with ¾ tsp kosher salt, 1 tsp garlic powder, ½ tsp dried thyme, and ½ tsp black pepper. No breading is needed."
     },
     {
       "text": "Heat half of the 1 tbsp olive oil in a large skillet over medium-high heat. Add half the chicken in a single layer without crowding. Leave undisturbed for 2–3 minutes to brown, then turn occasionally until cooked through, about 6–9 minutes total. Check several of the largest pieces for an internal temperature of 165°F. Transfer to a clean plate. Repeat with the remaining oil and chicken, adjusting the heat to keep the browned bits from burning."
