@@ -1,7 +1,7 @@
 {
   "slug": "tilsiter-chicken-with-honey-dijon-glaze",
-  "title": "Tilsiter Chicken with Honey-Dijon Glaze",
-  "summary": "Lightly crisp chicken cutlets topped with melted Tilsiter, served with a tangy-sweet pan glaze and fire-roasted vegetables.",
+  "title": "Tilsiter Chicken Bites with Honey-Dijon Glaze",
+  "summary": "Golden chicken bites tossed in a tangy-sweet honey-Dijon pan glaze, topped with melted Tilsiter, and served with fire-roasted vegetables.",
   "publishedDate": "2026-09-15",
   "status": "awaiting-verdict",
   "servings": 3,
@@ -20,7 +20,7 @@
       "quantity": 1.5,
       "unit": "lb",
       "item": "boneless, skinless chicken breasts",
-      "note": "sliced horizontally into thin cutlets"
+      "note": "cut into roughly 1-inch chunks; kitchen shears work well"
     },
     {
       "quantity": 6,
@@ -32,19 +32,13 @@
       "quantity": 3,
       "unit": "oz",
       "item": "Tilsiter cheese",
-      "note": "thinly sliced or shredded"
-    },
-    {
-      "quantity": 0.3333333333,
-      "unit": "cup",
-      "item": "panko breadcrumbs",
-      "note": "for a light one-sided crust"
+      "note": "shredded"
     },
     {
       "quantity": 1,
       "unit": "tbsp",
       "item": "olive oil",
-      "note": "for cooking the chicken"
+      "note": "divided between two batches of chicken"
     },
     {
       "quantity": 0.75,
@@ -97,25 +91,20 @@
       "timerMinutes": 18
     },
     {
-      "text": "While the vegetables roast, slice 1½ lb chicken breasts horizontally into thin cutlets. If needed, pound them to an even ½-inch thickness. Season both sides with ¾ tsp kosher salt, 1 tsp garlic powder, ½ tsp dried thyme, and ½ tsp black pepper."
+      "text": "While the vegetables roast at 425°F, cut 1½ lb chicken breasts into roughly 1-inch chunks with a knife or kitchen shears. Keep the pieces similar in size. Pat dry and toss with ¾ tsp kosher salt, 1 tsp garlic powder, ½ tsp dried thyme, and ½ tsp black pepper. No breading is needed."
     },
     {
-      "text": "Spread ⅓ cup panko on a plate. Press one side of each seasoned cutlet firmly into the panko to make a thin, one-sided crust; discard any panko that contacted raw chicken."
+      "text": "Heat half of the 1 tbsp olive oil in a large skillet over medium-high heat. Add half the chicken in a single layer without crowding. Leave undisturbed for 2–3 minutes to brown, then turn occasionally until cooked through, about 6–9 minutes total. Check several of the largest pieces for an internal temperature of 165°F. Transfer to a clean plate. Repeat with the remaining oil and chicken, adjusting the heat to keep the browned bits from burning."
     },
     {
-      "text": "Heat 1 tbsp olive oil in a large skillet over medium to medium-high heat. Place the cutlets panko-side down and cook for 3–4 minutes until deeply golden. Flip and cook for another 3–5 minutes, adjusting the heat as needed, until the chicken is nearly cooked through.",
-      "timerMinutes": 3
+      "text": "With the cooked chicken removed, add ½ cup chicken broth, 1½ tbsp Dijon mustard, 2 tsp honey, and the optional 1 tsp apple cider vinegar to the skillet. Scrape up the browned bits and simmer for 2–4 minutes, stirring, until slightly reduced and lightly coating a spoon. Taste and adjust with black pepper."
     },
     {
-      "text": "Divide 3 oz Tilsiter over the chicken. Reduce the heat to low, cover the skillet, and cook for 1–2 minutes until the cheese melts and the thickest part of every cutlet reaches 165°F. Transfer the chicken to a plate and keep warm.",
+      "text": "Return the cooked chicken bites to the skillet and toss briefly in the honey-Dijon glaze. Scatter 3 oz shredded Tilsiter over the chicken, reduce the heat to low, and cover for 1–2 minutes, just until the cheese melts. For an unglazed portion, keep some cooked chicken separate before tossing and melt its share of cheese separately.",
       "timerMinutes": 1
     },
     {
-      "text": "Add ½ cup chicken broth, 1½ tbsp Dijon mustard, 2 tsp honey, and the optional 1 tsp apple cider vinegar to the same skillet. Scrape up the browned bits and simmer for 2–4 minutes, stirring, until the glaze lightly coats a spoon. Taste and adjust with black pepper or a small splash of vinegar.",
-      "timerMinutes": 2
-    },
-    {
-      "text": "Serve the Tilsiter-topped chicken with the roasted vegetables. Spoon the honey-Dijon glaze over the chicken and vegetables, or serve it at the table so each person can add as much as desired."
+      "text": "Divide the cheesy honey-Dijon chicken bites among 3 plates and serve with the roasted Primavera vegetables. Spoon any remaining pan glaze over the vegetables if desired."
     }
   ]
 }
