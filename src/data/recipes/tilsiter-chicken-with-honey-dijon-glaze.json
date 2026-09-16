@@ -3,7 +3,7 @@
   "title": "Tilsiter Chicken Bites with Honey-Dijon Glaze",
   "summary": "Golden chicken bites tossed in a tangy-sweet honey-Dijon pan glaze, topped with melted Tilsiter, and served with fire-roasted vegetables.",
   "publishedDate": "2026-09-15",
-  "status": "awaiting-verdict",
+  "status": "needs-work",
   "servings": 3,
   "prepMinutes": 15,
   "cookMinutes": 25,
@@ -106,5 +106,19 @@
     {
       "text": "Divide the cheesy honey-Dijon chicken bites among 3 plates and serve with the roasted Primavera vegetables. Spoon any remaining pan glaze over the vegetables if desired."
     }
-  ]
+  ],
+  "actualChanges": [
+    "The stove was delivering more heat than expected, and the chicken left substantial char in the pan. That residue carried into the glaze and melted cheese."
+  ],
+  "verdict": {
+    "status": "needs-work",
+    "rating": 3.5,
+    "loggedDate": "2026-09-16",
+    "familyReaction": "Rated 3.5/5. The cook attributed the disappointing result to a failing stove and not noticing the actual heat: substantial char in the pan turned the glaze and cheese into something resembling mud.",
+    "whatDidnt": [
+      "Excessive heat produced substantial char in the pan.",
+      "The char carried into the glaze and cheese, giving the finished sauce a muddy appearance."
+    ],
+    "nextTime": "Retry with closer heat control, starting at medium heat and adjusting to the browning. If the pan residue turns black rather than golden-brown, transfer the chicken and make the glaze in a clean skillet instead of incorporating the burned residue. Melt the cheese gently over low heat."
+  }
 }
