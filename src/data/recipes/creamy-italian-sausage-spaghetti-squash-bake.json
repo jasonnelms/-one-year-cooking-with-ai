@@ -1,0 +1,140 @@
+{
+  "slug": "creamy-italian-sausage-spaghetti-squash-bake",
+  "title": "Creamy Italian Sausage & Spaghetti Squash Bake",
+  "summary": "A tomato-free, high-protein spaghetti squash casserole with mild poultry Italian sausage, roasted red peppers, spinach, Parmesan, and mozzarella.",
+  "publishedDate": "2026-09-23",
+  "status": "awaiting-verdict",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "tags": [
+    "weeknight",
+    "spaghetti-squash",
+    "poultry-sausage",
+    "high-protein",
+    "casserole",
+    "tomato-free"
+  ],
+  "sourceNote": "A lighter baked-pasta-style dinner built around spaghetti squash and mild chicken or turkey Italian sausage, with roasted red pepper providing sweetness and acidity in place of tomato sauce. Estimated nutrition per serving (1/4 of the recipe): approximately 500 calories, 38 g protein, 6 g fiber, and 26 g fat. Estimate assumes a roughly 3.5–4 lb spaghetti squash, 20 oz poultry Italian sausage at about 170 calories per 4 oz, nonfat plain Greek yogurt, part-skim mozzarella, and the listed ingredients. Sausage brands and squash yield vary substantially, so treat these as rounded ingredient-based estimates rather than laboratory measurements.",
+  "ingredients": [
+    {
+      "quantity": 1,
+      "unit": "",
+      "item": "large spaghetti squash",
+      "note": "about 3.5–4 lb"
+    },
+    {
+      "quantity": 1.25,
+      "unit": "lb",
+      "item": "mild Italian chicken or turkey sausage",
+      "note": "raw links or bulk sausage; remove casings if needed"
+    },
+    {
+      "quantity": 1,
+      "unit": "cup",
+      "item": "jarred roasted red peppers",
+      "note": "drained well"
+    },
+    {
+      "quantity": 5,
+      "unit": "oz",
+      "item": "baby spinach"
+    },
+    {
+      "quantity": 1,
+      "unit": "",
+      "item": "small yellow onion",
+      "note": "finely diced; or use 1 large shallot"
+    },
+    {
+      "quantity": 4,
+      "unit": "cloves",
+      "item": "garlic",
+      "note": "minced, divided"
+    },
+    {
+      "quantity": 0.75,
+      "unit": "cup",
+      "item": "plain Greek yogurt"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "cup",
+      "item": "low-sodium chicken broth"
+    },
+    {
+      "quantity": 0.25,
+      "unit": "cup",
+      "item": "grated Parmesan"
+    },
+    {
+      "quantity": 1,
+      "unit": "cup",
+      "item": "part-skim shredded mozzarella",
+      "note": "divided"
+    },
+    {
+      "quantity": 2,
+      "unit": "tsp",
+      "item": "olive oil",
+      "note": "for the squash"
+    },
+    {
+      "quantity": 1,
+      "unit": "tsp",
+      "item": "Italian seasoning"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "fennel seed",
+      "note": "lightly crushed; optional if the sausage is already fennel-forward"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "note": "divided, plus more to taste if needed"
+    },
+    {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "item": "black pepper"
+    },
+    {
+      "quantity": null,
+      "unit": "",
+      "item": "red pepper flakes",
+      "note": "optional, for serving"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 425°F. Cut the spaghetti squash in half lengthwise and scoop out the seeds. Brush the cut sides with 2 tsp olive oil and season with about 1/4 tsp of the kosher salt. Place cut-side down on a parchment-lined sheet pan and roast until the strands are tender but still have a little bite, about 35–45 minutes.",
+      "timerMinutes": 35
+    },
+    {
+      "text": "When the squash is cool enough to handle, scrape the flesh into strands with a fork. Transfer the strands to a colander and let them drain while you prepare the filling. Removing this extra moisture keeps the finished casserole from becoming watery."
+    },
+    {
+      "text": "While the squash roasts, heat a large skillet over medium-high heat. Remove the sausage from its casings if needed and brown it, breaking it into chunky crumbles. Add the diced onion or shallot and 3 cloves of the garlic. Cook until the sausage is cooked through and the onion is softened. Stir in 1 tsp Italian seasoning and the optional 1/2 tsp crushed fennel seed."
+    },
+    {
+      "text": "Blend the drained roasted red peppers with 3/4 cup Greek yogurt, 1/2 cup chicken broth, 1/4 cup Parmesan, the remaining 1 clove garlic, 1/2 tsp black pepper, and the remaining 1/4 tsp kosher salt until smooth. The sauce should be roughly the consistency of a loose Alfredo sauce."
+    },
+    {
+      "text": "Reduce the skillet heat to low. Pour the roasted-red-pepper sauce into the sausage mixture and warm gently, stirring frequently. Do not let the sauce boil aggressively, which can cause the yogurt to split. Add the spinach and stir until wilted."
+    },
+    {
+      "text": "Lower the oven temperature to 400°F. Fold the drained spaghetti squash strands and 1/2 cup of the mozzarella into the sausage mixture. Taste and adjust seasoning if needed, keeping in mind that the sausage, Parmesan, and mozzarella all contribute salt."
+    },
+    {
+      "text": "Transfer the mixture to a lightly greased casserole dish and top with the remaining 1/2 cup mozzarella. Bake at 400°F until hot and bubbling, about 15–20 minutes.",
+      "timerMinutes": 15
+    },
+    {
+      "text": "If desired, broil for 1–2 minutes to brown the cheese, watching closely. Let the casserole stand for about 5 minutes before serving. Offer red pepper flakes at the table so each person can add heat individually.",
+      "timerMinutes": 5
+    }
+  ]
+}
