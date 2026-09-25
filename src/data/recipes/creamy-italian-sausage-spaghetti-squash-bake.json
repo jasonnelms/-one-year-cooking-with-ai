@@ -15,7 +15,7 @@
     "casserole",
     "tomato-free"
   ],
-  "sourceNote": "A lighter baked-pasta-style dinner built around spaghetti squash and mild chicken or turkey Italian sausage, with roasted red pepper providing sweetness and acidity in place of tomato sauce. Estimated nutrition per serving (1/4 of the recipe): approximately 500 calories, 38 g protein, 6 g fiber, and 26 g fat. Estimate assumes a roughly 3.5–4 lb spaghetti squash, 20 oz poultry Italian sausage at about 170 calories per 4 oz, nonfat plain Greek yogurt, part-skim mozzarella, and the listed ingredients. Sausage brands and squash yield vary substantially, so treat these as rounded ingredient-based estimates rather than laboratory measurements.",
+  "sourceNote": "A lighter baked-pasta-style dinner built around spaghetti squash and mild chicken or turkey Italian sausage, with roasted red pepper providing sweetness and acidity in place of tomato sauce. The version originally posted used roasted red pepper in the yogurt sauce. The cooked version replaced the roasted red peppers with about 3/4 cup pesto blended with the Greek yogurt and chicken broth. This is a substantial flavor and nutrition change, so the original nutrition estimate no longer reflects the prepared dish accurately; the final estimate should be recalculated from the pesto brand and amount used.",
   "ingredients": [
     {
       "quantity": 1,
@@ -136,5 +136,8 @@
       "text": "If desired, broil for 1–2 minutes to brown the cheese, watching closely. Let the casserole stand for about 5 minutes before serving. Offer red pepper flakes at the table so each person can add heat individually.",
       "timerMinutes": 5
     }
+  ],
+  "actualChanges": [
+    "Replaced the roasted red peppers in the sauce with about 3/4 cup pesto. Blended the pesto with the Greek yogurt and chicken broth to make the sauce."
   ]
 }
