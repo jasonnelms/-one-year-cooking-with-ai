@@ -3,7 +3,7 @@
   "title": "Creamy Italian Sausage & Spaghetti Squash Bake",
   "summary": "A tomato-free, high-protein spaghetti squash casserole with mild poultry Italian sausage, roasted red peppers, spinach, Parmesan, and mozzarella.",
   "publishedDate": "2026-09-23",
-  "status": "awaiting-verdict",
+  "status": "hit",
   "servings": 4,
   "prepMinutes": 20,
   "cookMinutes": 60,
@@ -139,5 +139,22 @@
   ],
   "actualChanges": [
     "Replaced the roasted red peppers in the sauce with about 3/4 cup pesto. Blended the pesto with the Greek yogurt and chicken broth to make the sauce."
-  ]
+  ],
+  "cookedDate": "2026-09-24",
+  "verdict": {
+    "status": "hit",
+    "rating": 4,
+    "loggedDate": "2026-09-24",
+    "familyReaction": "Jason rated it 4.25/5, Judy 3.75/5, and Ella 4/5, for an overall average of 4.0/5. Jason said the flavor and texture were great. The main concern was that the pesto substitution likely increased the calories substantially compared with the original roasted-red-pepper version.",
+    "whatWorked": [
+      "The creamy pesto sauce delivered strong flavor.",
+      "The finished texture was very good.",
+      "All three tasters rated it between 3.75 and 4.25, indicating broad agreement that the dish worked."
+    ],
+    "whatDidnt": [
+      "The planned roasted-red-pepper sauce was abandoned after the blender leaked because the seal was missing.",
+      "Using about 3/4 cup pesto likely made the dish significantly higher in calories and fat than originally intended."
+    ],
+    "nextTime": "Decide whether to keep the pesto version as the preferred recipe or retry the roasted-red-pepper sauce with the blender properly sealed. If using pesto again, record the brand and nutrition label so the recipe's per-serving nutrition can be recalculated accurately."
+  }
 }
