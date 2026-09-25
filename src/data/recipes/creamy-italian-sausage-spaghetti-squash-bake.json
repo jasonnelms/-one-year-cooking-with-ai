@@ -4,7 +4,7 @@
   "summary": "A tomato-free, high-protein spaghetti squash casserole with mild poultry Italian sausage, roasted red peppers, spinach, Parmesan, and mozzarella.",
   "publishedDate": "2026-09-23",
   "status": "hit",
-  "servings": 4,
+  "servings": 5,
   "prepMinutes": 20,
   "cookMinutes": 60,
   "tags": [
@@ -15,7 +15,7 @@
     "casserole",
     "tomato-free"
   ],
-  "sourceNote": "The version originally posted used roasted red pepper in the yogurt sauce. The cooked version replaced the roasted red peppers with about 3/4 cup Kirkland Signature Imported Basil Pesto (item 990551) blended with the Greek yogurt and chicken broth. Using the current label value of about 330 calories, 30 g fat, 6 g protein, 9 g carbohydrate, and 1 g fiber per 1/4 cup, the 3/4 cup pesto contributes about 990 calories, 90 g fat, 18 g protein, 27 g carbohydrate, and 3 g fiber to the full dish. Based on the original ingredient-based estimate and replacing the red-pepper component with this pesto, revised nutrition is approximately 735 calories, 43 g protein, 6 g fiber, and 49 g fat per serving (1/4 recipe). These remain rounded estimates because sausage brand, squash yield, yogurt, cheese, and exact pesto volume all affect the result.",
+  "sourceNote": "The version originally posted used roasted red pepper in the yogurt sauce. The cooked version replaced the roasted red peppers with about 3/4 cup Kirkland Signature Imported Basil Pesto (item 990551) blended with the Greek yogurt and chicken broth. Using the current label value of about 330 calories, 30 g fat, 6 g protein, 9 g carbohydrate, and 1 g fiber per 1/4 cup, the 3/4 cup pesto contributes about 990 calories, 90 g fat, 18 g protein, 27 g carbohydrate, and 3 g fiber to the full dish. Based on the original ingredient-based estimate and replacing the red-pepper component with this pesto, revised nutrition is approximately 590 calories, 34 g protein, 5 g fiber, and 39 g fat per serving (1/5 recipe). These remain rounded estimates because sausage brand, squash yield, yogurt, cheese, and exact pesto volume all affect the result.",
   "ingredients": [
     {
       "quantity": 1,
@@ -138,7 +138,8 @@
     }
   ],
   "actualChanges": [
-    "Replaced the roasted red peppers in the sauce with about 3/4 cup pesto. Blended the pesto with the Greek yogurt and chicken broth to make the sauce."
+    "Replaced the roasted red peppers in the sauce with about 3/4 cup pesto. Blended the pesto with the Greek yogurt and chicken broth to make the sauce.",
+    "The finished casserole felt like 5 servings rather than 4, so serving count and per-serving nutrition were adjusted accordingly."
   ],
   "cookedDate": "2026-09-24",
   "verdict": {
